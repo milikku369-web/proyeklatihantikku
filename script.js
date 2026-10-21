@@ -1,21 +1,5 @@
-body {
-    background-color: #ffffd8; /* Latar belakang kuning muda krem */
-    font-family: Arial, sans-serif; 
-    color: #191970;
-}
+const tombolSapa = document.getElementById('sapaButton');
 
-.kartu-profil {
-    width: 300px;
-    margin: 50px auto;
-    padding: 25px 20px;
-    background-color: white;
-    border-radius: 15px; /* Membuat sudut kartu sedikit melengkung */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Efek bayangan halus */
-    text-align: center;
-}
-
-.kartu-profil img { /* Perbaikan tanda hubung pada selector */
-    width: 130px;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 50%; /* Membuat foto profil berbentuk oval/lingkaran */
+tombolSapa.addEventListener('click', function() {
+    alert('Halo, terima kasih udah berkunjung ke website saya');
+});
